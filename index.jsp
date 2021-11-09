@@ -21,7 +21,7 @@ if ("POST".equalsIgnoreCase(request.getMethod())) {
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Welcome to Tomcat</title>
+  <title>Welcome to Tomcat 8.5</title>
   <style>
   body {
     color: #ffffff;
@@ -96,8 +96,8 @@ if ("POST".equalsIgnoreCase(request.getMethod())) {
 </head>
 <body id="sample">
   <div class="textColumn">
-    <h1>Hello</h1>
-    <p>This is Elastic Beanstalk Application running on environment in the &AWS; Cloud</p>
+    <h1>Hello from Java</h1>
+    <p>This is Elastic Beanstalk Application running on environment in the AWS Cloud</p>
   </div>
   
 </script>
