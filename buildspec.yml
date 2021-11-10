@@ -13,6 +13,10 @@ phases:
       - mvn install
   post_build:
     commands:
+      - mvn package
+      - mv target/ROOT.war ROOT.war
       - echo Build completed on `date`
 artifacts:
   files:
+    - ROOT.war
+    - .ebextensions/**/*
